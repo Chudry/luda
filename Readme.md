@@ -450,3 +450,8 @@ from [Akamai Technologies](https://www.akamai.com)
                     \/
 
 ```
+
+
+
+
+Malicious actors often reuse code to deploy their malware, phishing website or CNC server. As a result, similiaries can be found on URLs path by inspecting internet traffic. Moreover, deep learning models or even regular ML model do not fit for inline deployment in terms of running performance. However, regexes ( or YARA rules ) can be deployed on a proxy and work in real time on all the traffic. LUDA can take a set of malicious and benign URLs and return a list of regexes ready to be deployed inline !
